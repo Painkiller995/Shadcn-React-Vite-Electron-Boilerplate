@@ -2,17 +2,20 @@
 import { join } from 'path';
 
 // Packages
-import { BrowserWindow, app, ipcMain, IpcMainEvent } from 'electron';
+import { BrowserWindow, app, screen, ipcMain, IpcMainEvent } from 'electron';
 import isDev from 'electron-is-dev';
 
-const width = 1025;
-const height = 749;
-
 function createWindow() {
+  const primaryDisplay = screen.getPrimaryDisplay();
+  const { width, height } = primaryDisplay.workAreaSize;
+
+  const windowHeight = height * 0.9;
+  const windowWidth = width * 0.3;
+
   // Create the browser window.
   const window = new BrowserWindow({
-    width,
-    height,
+    width: windowWidth,
+    height: windowHeight,
     frame: true,
     show: true,
     resizable: true,
