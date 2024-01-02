@@ -1,7 +1,7 @@
 {
-  "name": "Shadcn-React-Vite-Electron",
+  "name": "shadcn-react-vite-electron",
   "version": "0.0.1",
-  "description": "Starter using Vite 2+ React +Typescript + Electron for fast prototyping.",
+  "description": "Starter using Vite React Typescript Electron",
   "license": "MIT",
   "main": "main/index.js",
   "author": {
@@ -25,7 +25,6 @@
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-slot": "^1.0.2",
-    "@vitejs/plugin-react": "^4.2.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "electron-is-dev": "^2.0.0",
@@ -44,7 +43,7 @@
     "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "6.17.0",
     "@typescript-eslint/parser": "6.17.0",
-    "@vitejs/plugin-react": "^4.0.4",
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
     "autosuggest-highlight": "^3.3.4",
     "concurrently": "^8.2.2",
